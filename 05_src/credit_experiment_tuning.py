@@ -54,6 +54,7 @@ def get_pipe(preprocessing, model):
             ('clf', clf)
         ]
     )
+    print('here')
     return pipe
 
 
